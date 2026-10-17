@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HW1 中文版題號修正</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js"
+ onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}]})"></script>
+<style>
+:root{--bg:#fafaf7;--fg:#1d1d1b;--mut:#6b6b66;--card:#fff;--line:#dedcd4;--keep:#1b7f4b;--ren:#b26a00;--new:#c0392b;--hl:#fff6d6}
+@media(prefers-color-scheme:dark){:root{--bg:#161614;--fg:#ecebe6;--mut:#9a9a92;--card:#1f1f1c;--line:#3a3a35;--keep:#4cc38a;--ren:#f0a53a;--new:#ff7a6b;--hl:#3a3320}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.7 "Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif}
+main{max-width:980px;margin:0 auto;padding:24px 16px 80px}
+h1{font-size:1.6rem;margin:.2em 0}
+h2{font-size:1.25rem;margin:0 0 .4em}
+.sub{color:var(--mut);margin:0 0 1.2em}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin:20px 0}
+table{border-collapse:collapse;width:100%;font-size:.92rem}
+th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+th{background:var(--hl)}
+.tag{display:inline-block;padding:1px 9px;border-radius:99px;font-size:.8rem;font-weight:700;color:#fff;white-space:nowrap}
+.keep{background:var(--keep)}.ren{background:var(--ren)}.new{background:var(--new)}
+.prob{border-left:4px solid var(--line);padding:2px 12px;margin:.6em 0;background:var(--hl)}
+.op{border:1px dashed var(--line);border-radius:8px;padding:8px 12px;margin:.8em 0;font-size:.95rem}
+.op b{color:var(--ren)}
+img{max-width:100%;height:auto;border:1px solid var(--line);border-radius:6px;background:#fff;display:block;margin:.5em 0}
+.ans{background:var(--hl);padding:6px 12px;border-radius:6px;font-weight:600;margin:.6em 0}
+.step{margin:.4em 0 .4em 0}
+.note{color:var(--mut);font-size:.9rem}
+svg{max-width:100%;height:auto}
+.katex-display{overflow-x:auto;overflow-y:hidden;padding:2px 0}
+</style>
+</head>
+<body>
+<main>
+<h1>HW1 ｜ 手寫稿 → 中文版題目 修正稿</h1>
+<p class="sub">勾選題（中文版題號）：1, 2, 6, 8, 9, 10, 11, 14, 16, 17, 18, 20, 21</p>
+
+<div class="card">
+<h2>問題在哪？</h2>
+<p>勾選的題號是<b>中文版</b>題號，但手寫稿是照<b>英文版</b>同樣的題號去找題目寫的。兩版題目順序不同、題數也不同（例如中文版有英文版沒有的「非拋物線有效質量」與「畫能帶圖」順序不同），從第 2 題開始同號就不是同一題，所以有些題寫的是別題。
+下表是逐題對照與要做的動作：</p>
+<table>
+<tr><th>中文題號</th><th>題目內容</th><th>手寫稿現況</th><th>動作</th></tr>
+<tr><td>1</td><td>矽最近鄰距離、(100)(110)(111) 面密度</td><td>英 1（內容相同）</td><td><span class="tag keep">沿用</span> 只改一處筆誤</td></tr>
+<tr><td>2</td><td>SC / FCC / 鑽石最大填充比</td><td>寫成英 2（鑽石晶格投影，其實是中 4）</td><td><span class="tag new">重寫</span></td></tr>
+<tr><td>6</td><td>GaAs 密度、Sn 摻雜</td><td>英 6（內容相同）</td><td><span class="tag keep">沿用</span></td></tr>
+<tr><td>8</td><td>非拋物線能帶有效質量</td><td>寫成英 8（Eq.14 推導，其實是中 9）</td><td><span class="tag new">重寫</span></td></tr>
+<tr><td>9</td><td>推導 Eq.(14)（價電帶電洞濃度）</td><td>手寫的「8」</td><td><span class="tag ren">改題號</span> 8 → 9</td></tr>
+<tr><td>10</td><td>由 Nv 求電洞有效質量</td><td>手寫的「9」</td><td><span class="tag ren">改題號</span> 9 → 10，補寫 7×10¹⁸</td></tr>
+<tr><td>11</td><td>Ei 位置（77K / 300K / 100℃）</td><td>手寫的「10」</td><td><span class="tag ren">改題號</span> 10 → 11，補結論</td></tr>
+<tr><td>14</td><td>10¹⁷ 硼矽，200 K 載子與 EF</td><td>寫成英 14（那是中 15）</td><td><span class="tag new">重寫</span></td></tr>
+<tr><td>16</td><td>畫 77/300/600 K 平能帶圖</td><td>寫成英 16（另一題）</td><td><span class="tag new">重寫（含圖）</span></td></tr>
+<tr><td>17</td><td>EF 在 Ec 下 0.2 eV，求 n、p、摻雜</td><td>寫成英 17（另一題）</td><td><span class="tag new">重寫</span></td></tr>
+<tr><td>18</td><td>10¹⁶ B + 8×10¹⁶ As 的 EF</td><td>寫成英 18（Ge 題）</td><td><span class="tag new">重寫</span></td></tr>
+<tr><td>20</td><td>磷 10¹⁵/10¹⁷/10¹⁹ 的 EF 與游離檢驗</td><td>英 20（內容相同）</td><td><span class="tag keep">沿用</span> 補 Nc</td></tr>
+<tr><td>21</td><td>77 K 中性/游離施體比</td><td>英 21（內容相同）</td><td><span class="tag keep">沿用</span></td></tr>
+</table>
+<p class="note">手寫稿中多出來、不在勾選範圍的題：英 2 = 中 4、英 11 = 中 12、英 14 = 中 15，放在最後「備用」；英 16、17、18 在中文版沒有對應，不用交。<br>
+數值檢查：手寫稿的沿用題（1、6、9、10、11、20、21）結果我重新算過，都正確。</p>
+</div>
+
+<!-- ============ 1 ============ -->
+<div class="card">
+<h2>第 1 題 <span class="tag keep">沿用</span></h2>
+<div class="prob">(a) 矽中兩最鄰近原子的距離是多少？(b) 找出矽中 (100)、(110) 及 (111) 三平面上每平方公分的原子數。</div>
+<div class="op"><b>操作：</b>題號相同，直接沿用。把題目區的英文換成上面中文即可。<b>只需改 1 處：</b>(b) Step 2 表格第三列寫成 <code>(110)</code>，要改成 <code>(111)</code>。</div>
+<img src="HW1_crops/ch1a.png" alt="1(a) 手寫">
+<img src="HW1_crops/ch1b.png" alt="1(b) 手寫">
+<p class="ans">答：(a) $d=\tfrac{\sqrt3}{4}a\approx2.35\ \text{Å}$　(b) (100) $6.78\times10^{14}$、(110) $9.59\times10^{14}$、(111) $7.83\times10^{14}\ \text{cm}^{-2}$</p>
+</div>
+
+<!-- ============ 2 ============ -->
+<div class="card">
+<h2>第 2 題 <span class="tag new">重寫</span></h2>
+<div class="prob">找出簡單立方晶體、面心立方晶體及鑽石晶格中的單位晶胞體積內最大填充比率。</div>
+<div class="op"><b>操作：</b>手寫稿裡的「鑽石晶格投影 X、Y、Z」是<b>中文第 4 題</b>，這題不用交，留到最後備用。第 2 題照下面重寫。</div>
+<p class="step"><b>填充比</b> $=\dfrac{\text{晶胞內原子數}\times\frac43\pi r^3}{a^3}$，硬球彼此相切決定 $r$ 與 $a$ 的關係。</p>
+<p class="step"><b>簡單立方 (SC)</b>：每胞 1 個原子，最近鄰沿邊 $2r=a$</p>
+$$f_{SC}=\frac{1\cdot\frac43\pi\left(\frac a2\right)^3}{a^3}=\frac{\pi}{6}\approx0.52$$
+<p class="step"><b>面心立方 (FCC)</b>：每胞 4 個原子，相切沿面對角線 $4r=\sqrt2\,a\Rightarrow r=\frac{\sqrt2}{4}a$</p>
+$$f_{FCC}=\frac{4\cdot\frac43\pi\left(\frac{\sqrt2a}{4}\right)^3}{a^3}=\frac{\sqrt2\,\pi}{6}\approx0.74$$
+<p class="step"><b>鑽石晶格</b>：每胞 8 個原子，最近鄰距離為體對角線的 1/4：$2r=\frac{\sqrt3}{4}a\Rightarrow r=\frac{\sqrt3}{8}a$</p>
+$$f_{D}=\frac{8\cdot\frac43\pi\left(\frac{\sqrt3a}{8}\right)^3}{a^3}=\frac{\sqrt3\,\pi}{16}\approx0.34$$
+<p class="ans">答：SC $=\pi/6\approx52\%$　FCC $=\sqrt2\pi/6\approx74\%$　鑽石 $=\sqrt3\pi/16\approx34\%$</p>
+</div>
+
+<!-- ============ 6 ============ -->
+<div class="card">
+<h2>第 6 題 <span class="tag keep">沿用</span></h2>
+<div class="prob">(a) 計算砷化鎵的密度（砷化鎵的晶格常數為 5.65 Å，且砷及鎵的原子量分別為 69.72 及 74.92 克/莫耳）。(b) 一砷化鎵樣本摻雜錫。假如錫替代了晶格中鎵的位置，將形成施體或受體？為什麼？此半導體是 n 型或 p 型？</div>
+<div class="op"><b>操作：</b>題號相同，直接沿用，截圖只含手寫解答（題目請改貼中文）。<br>
+<span class="note">課本中文版把原子量順序印成「砷、鎵 = 69.72、74.92」，實際是 Ga = 69.72、As = 74.92（英文版正確）。因為密度算式是兩者相加，結果不變，手寫稿照英文版寫 Ga、As 即可。</span></div>
+<img src="HW1_crops/ch6.png" alt="6 手寫">
+<p class="ans">答：(a) $\rho=\dfrac{4(69.72+74.92)/6.022\times10^{23}}{(5.65\times10^{-8})^3}\approx5.33\ \text{g/cm}^3$　(b) Sn（IV 族）取代 Ga（III 族）多 1 個電子 → 施體，n 型</p>
+</div>
+
+<!-- ============ 8 ============ -->
+<div class="card">
+<h2>第 8 題 <span class="tag new">重寫</span></h2>
+<div class="prob">假設傳導帶中能量 E 表示為 $E(1+\alpha E)=p^2/(2m_0)$，其中 α 為一常數，$m_0$ 為電子靜止質量，p 為動量。找出有效質量的表示式？</div>
+<div class="op"><b>操作：</b>手寫稿的「Derive Eq.14」是<b>中文第 9 題</b>（見第 9 題），這題要新寫。</div>
+<p class="step"><b>定義</b>（$p=\hbar k$）：$\dfrac1{m^*}=\dfrac{1}{\hbar^2}\dfrac{d^2E}{dk^2}=\dfrac{d^2E}{dp^2}$</p>
+<p class="step"><b>Step 1</b> 對 $p$ 微分 $E+\alpha E^2=\dfrac{p^2}{2m_0}$：</p>
+$$(1+2\alpha E)\frac{dE}{dp}=\frac{p}{m_0}\;\Rightarrow\;\frac{dE}{dp}=\frac{p}{m_0(1+2\alpha E)}$$
+<p class="step"><b>Step 2</b> 再微分一次：</p>
+$$\frac{d^2E}{dp^2}=\frac{1}{m_0(1+2\alpha E)}-\frac{p\cdot2\alpha\,\frac{dE}{dp}}{m_0(1+2\alpha E)^2}
+=\frac{1}{m_0(1+2\alpha E)}-\frac{2\alpha p^2}{m_0^2(1+2\alpha E)^3}$$
+<p class="step"><b>Step 3</b> 代入 $p^2=2m_0E(1+\alpha E)$：</p>
+$$\frac{d^2E}{dp^2}=\frac{(1+2\alpha E)^2-4\alpha E(1+\alpha E)}{m_0(1+2\alpha E)^3}=\frac{1}{m_0(1+2\alpha E)^3}$$
+<p class="ans">答：$m^*=m_0\,(1+2\alpha E)^3$　（α→0 時 $m^*\to m_0$）</p>
+</div>
+
+<!-- ============ 9 ============ -->
+<div class="card">
+<h2>第 9 題 <span class="tag ren">改題號</span></h2>
+<div class="prob">試導出方程式(14)。（提示：價電帶中被一電洞佔據的態位機率為 $[1-F(E)]$。）</div>
+<div class="op"><b>操作：</b>這份手寫原本標 <b>8</b>（英文版 Eq.14 推導）→ 把題號改成 <b>9</b>，題目換成中文。算式不用動。<br>
+<span class="note">建議順手加一行：$p=N_v e^{-(E_F-E_v)/kT}$ 即為 Eq.(14)，$N_v=2\left(\frac{2\pi m_p kT}{h^2}\right)^{3/2}$。</span></div>
+<img src="HW1_crops/ch9.png" alt="9 手寫（原標 8）">
+<p class="ans">答：$p=N_v\,e^{-(E_F-E_v)/kT}$，$N_v=2\left(\dfrac{2\pi m_pkT}{h^2}\right)^{3/2}$</p>
+</div>
+
+<!-- ============ 10 ============ -->
+<div class="card">
+<h2>第 10 題 <span class="tag ren">改題號</span></h2>
+<div class="prob">在室溫下（300 K），矽在價電帶中的有效態位密度為 $2.66\times10^{19}\ \text{cm}^{-3}$；而砷化鎵為 $7\times10^{18}\ \text{cm}^{-3}$。找出對應的電洞有效質量。並與自由電子質量比較。</div>
+<div class="op"><b>操作：</b>原標 <b>9</b> → 改成 <b>10</b>。另外 GaAs 那行分子寫的是 <code>0.7</code>，請改寫成完整的 <code>7×10¹⁸ / 2.51×10¹⁹</code>，避免被扣單位分。</div>
+<img src="HW1_crops/ch10.png" alt="10 手寫（原標 9）">
+<p class="ans">答：Si $m_p\approx1.04\,m_0$；GaAs $m_p\approx0.43\,m_0$（兩者都與 $m_0$ 同量級，Si 略大於 $m_0$）</p>
+</div>
+
+<!-- ============ 11 ============ -->
+<div class="card">
+<h2>第 11 題 <span class="tag ren">改題號</span></h2>
+<div class="prob">計算矽在液態氮溫度（77 K）、室溫（300 K）及 100 ℃ 下的 $E_i$ 位置（令 $m_p=1.0\,m_0$ 且 $m_n=0.19\,m_0$）。將 $E_i$ 假設在禁止能隙中央是否合理？</div>
+<div class="op"><b>操作：</b>原標 <b>10</b> → 改成 <b>11</b>。表格結尾<b>補一行結論</b>（下方藍字，原稿沒回答「是否合理」）。<br>
+並補一步推導來源：$E_i=\frac{E_c+E_v}{2}+\frac{kT}{2}\ln\frac{N_v}{N_c}=\frac{E_c+E_v}{2}+\frac34kT\ln\frac{m_p}{m_n}$。</div>
+<img src="HW1_crops/ch11.png" alt="11 手寫（原標 10）">
+<p class="ans">補寫的結論：偏移量 $E_i-E_{mid}=8.3,\ 32.2,\ 40.0\ \text{meV}$，皆 $\ll E_g/2\approx0.56\ \text{eV}$（最大約 7%），所以<b>假設 $E_i$ 在能隙中央是合理的</b>。</p>
+</div>
+
+<!-- ============ 14 ============ -->
+<div class="card">
+<h2>第 14 題 <span class="tag new">重寫</span></h2>
+<div class="prob">一摻雜 $10^{17}$ 硼原子/立方公分的矽晶圓。找出在 200 K 時的載子濃度與費米能階。</div>
+<div class="op"><b>操作：</b>手寫稿標 14 的是「$N_A=10^{16}$、EF 在 Ec 下 0.2 eV」，那是<b>中文第 15 題</b>（見備用區）。第 14 題照下面重寫。</div>
+<p class="step"><b>Step 1</b> 200 K 的參數（$E_g$ 用第 7 題公式；$N_c,N_v$ 由 300 K 值乘 $(T/300)^{3/2}$）：</p>
+$$kT=0.01723\ \text{eV},\quad E_g(200)=1.17-\frac{4.73\times10^{-4}(200)^2}{200+636}=1.147\ \text{eV}$$
+$$N_v=2.66\times10^{19}\left(\tfrac{200}{300}\right)^{3/2}=1.45\times10^{19},\quad N_c=1.56\times10^{19}\ \text{cm}^{-3}$$
+<p class="step"><b>Step 2</b> 本質載子濃度：</p>
+$$n_i=\sqrt{N_cN_v}\,e^{-E_g/2kT}=1.50\times10^{19}\,e^{-33.29}\approx5.3\times10^{4}\ \text{cm}^{-3}$$
+<p class="step"><b>Step 3</b> $N_A\gg n_i$，假設完全游離：</p>
+$$p\approx N_A=1\times10^{17}\ \text{cm}^{-3},\qquad n=\frac{n_i^2}{p}=\frac{(5.3\times10^4)^2}{10^{17}}\approx2.8\times10^{-8}\ \text{cm}^{-3}$$
+<p class="step"><b>Step 4</b> 費米能階：</p>
+$$E_i-E_F=kT\ln\frac{p}{n_i}=0.01723\ln\frac{10^{17}}{5.3\times10^4}\approx0.487\ \text{eV}$$
+$$E_F-E_v=kT\ln\frac{N_v}{p}=0.01723\ln\frac{1.45\times10^{19}}{10^{17}}\approx0.086\ \text{eV}$$
+<p class="ans">答：$p\approx10^{17}$，$n\approx3\times10^{-8}\ \text{cm}^{-3}$；$E_F$ 在 $E_i$ 下方 0.487 eV（在 $E_v$ 上方約 0.086 eV）</p>
+<p class="note">備註：200 K 時 $E_F$ 只比硼受體能階（約 $E_v+0.045$ eV）高約 2kT，實際上受體不會 100% 游離。這題在第一章以完全游離計算即可，若老師要求可再用第 20 題的游離公式檢驗。</p>
+</div>
+
+<!-- ============ 16 ============ -->
+<div class="card">
+<h2>第 16 題 <span class="tag new">重寫（含圖）</span></h2>
+<div class="prob">畫出在 77 K、300 K 及 600 K 時摻雜 $10^{16}$ 砷原子/立方公分的矽的簡化平能帶圖。標示出費米能階並以本質費米能階作為能量參考。</div>
+<div class="op"><b>操作：</b>手寫稿標 16 的「硼 10¹⁵」是別題，整頁不用。這題要<b>手畫三張平帶圖</b>，下方圖可直接照畫。</div>
+<p class="step"><b>公式</b>：n 型、$N_D\gg n_i$ 時 $E_F-E_i=kT\ln\dfrac{n}{n_i}$；600 K 的 $n_i$ 不可忽略，用 $E_F-E_i=kT\sinh^{-1}\!\dfrac{N_D}{2n_i}$。</p>
+<table>
+<tr><th>T</th><th>kT (eV)</th><th>$E_g$ (eV)</th><th>$n_i$ (cm⁻³)</th><th>$E_F-E_i$ (eV)</th><th>備註</th></tr>
+<tr><td>77 K</td><td>0.00664</td><td>1.166</td><td>$2.5\times10^{-20}$</td><td>≈ +0.544</td><td>$E_c-E_F=kT\ln\frac{N_c}{N_D}\approx0.039$，貼近 $E_c$（此溫度其實接近凍結區）</td></tr>
+<tr><td>300 K</td><td>0.02585</td><td>1.12</td><td>$9.65\times10^{9}$</td><td>≈ +0.358</td><td>完全游離 $n=N_D$</td></tr>
+<tr><td>600 K</td><td>0.05170</td><td>1.032</td><td>$3.6\times10^{15}$</td><td>≈ +0.058</td><td>本質載子已與 $N_D$ 同量級：$n=1.1\times10^{16}$、$p=1.2\times10^{15}$，$E_F$ 趨近 $E_i$</td></tr>
+</table>
+<svg viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="13" role="img" aria-label="三張平能帶圖">
+<g stroke="currentColor" fill="none" stroke-width="2">
+<!-- 77K -->
+<text x="70" y="22" text-anchor="middle" fill="currentColor" stroke="none" font-weight="700">77 K</text>
+<line x1="20" y1="50" x2="130" y2="50"/><line x1="20" y1="260" x2="130" y2="260"/>
+<line x1="20" y1="155" x2="130" y2="155" stroke-dasharray="6 4"/>
+<line x1="20" y1="63" x2="130" y2="63" stroke="#c0392b"/>
+<!-- 300K -->
+<text x="300" y="22" text-anchor="middle" fill="currentColor" stroke="none" font-weight="700">300 K</text>
+<line x1="250" y1="50" x2="360" y2="50"/><line x1="250" y1="260" x2="360" y2="260"/>
+<line x1="250" y1="155" x2="360" y2="155" stroke-dasharray="6 4"/>
+<line x1="250" y1="85" x2="360" y2="85" stroke="#c0392b"/>
+<!-- 600K -->
+<text x="530" y="22" text-anchor="middle" fill="currentColor" stroke="none" font-weight="700">600 K</text>
+<line x1="480" y1="50" x2="590" y2="50"/><line x1="480" y1="260" x2="590" y2="260"/>
+<line x1="480" y1="155" x2="590" y2="155" stroke-dasharray="6 4"/>
+<line x1="480" y1="138" x2="590" y2="138" stroke="#c0392b"/>
+</g>
+<g fill="currentColor">
+<text x="135" y="54">E<tspan font-size="10" dy="3">c</tspan></text><text x="135" y="264">E<tspan font-size="10" dy="3">v</tspan></text><text x="135" y="159">E<tspan font-size="10" dy="3">i</tspan></text>
+<text x="135" y="67" fill="#c0392b">E<tspan font-size="10" dy="3">F</tspan> (+0.544)</text>
+<text x="365" y="54">E<tspan font-size="10" dy="3">c</tspan></text><text x="365" y="264">E<tspan font-size="10" dy="3">v</tspan></text><text x="365" y="159">E<tspan font-size="10" dy="3">i</tspan></text>
+<text x="365" y="89" fill="#c0392b">E<tspan font-size="10" dy="3">F</tspan> (+0.358)</text>
+<text x="595" y="54">E<tspan font-size="10" dy="3">c</tspan></text><text x="595" y="264">E<tspan font-size="10" dy="3">v</tspan></text><text x="595" y="159">E<tspan font-size="10" dy="3">i</tspan></text>
+<text x="595" y="130" fill="#c0392b">E<tspan font-size="10" dy="3">F</tspan> (+0.058)</text>
+<text x="70" y="285" text-anchor="middle">E<tspan font-size="10" dy="3">g</tspan>=1.166 eV</text>
+<text x="300" y="285" text-anchor="middle">E<tspan font-size="10" dy="3">g</tspan>=1.12 eV</text>
+<text x="530" y="285" text-anchor="middle">E<tspan font-size="10" dy="3">g</tspan>=1.032 eV</text>
+</g>
+</svg>
+<p class="note">圖為示意，E<sub>F</sub> 紅線高度依 $E_F-E_i$ 比例（各圖能隙高度已正規化，所以三張圖的 $E_c$、$E_v$ 畫在同高度）。</p>
+<p class="ans">答：n 型，三個溫度下 $E_F$ 都在 $E_i$ 之上；溫度愈高 $E_F$ 愈往 $E_i$ 靠近（0.544 → 0.358 → 0.058 eV）。</p>
+</div>
+
+<!-- ============ 17 ============ -->
+<div class="card">
+<h2>第 17 題 <span class="tag new">重寫</span></h2>
+<div class="prob">假設一矽樣品的費米能階位在傳導帶下方 0.2 eV 處，計算：(i) 電子密度與電洞密度，與 (ii) 摻雜濃度。假設矽的能隙為 1.12 eV，溫度為 300 K，與傳導帶等效態位密度為 $2.86\times10^{19}\ \text{cm}^{-3}$。</div>
+<div class="op"><b>操作：</b>手寫稿標 17 的「$N_D=10^{17}$」是英文版別題，整頁不用，照下面重寫。</div>
+<p class="step"><b>(i) 電子：</b> $E_c-E_F=0.20$ eV，$kT=0.02585$ eV</p>
+$$n=N_c\,e^{-(E_c-E_F)/kT}=2.86\times10^{19}\,e^{-0.20/0.02585}\approx1.25\times10^{16}\ \text{cm}^{-3}$$
+<p class="step"><b>電洞：</b> $E_F-E_v=E_g-0.20=0.92$ eV，用 $N_v=2.66\times10^{19}$（第 10 題）</p>
+$$p=N_v\,e^{-(E_F-E_v)/kT}=2.66\times10^{19}\,e^{-0.92/0.02585}\approx9\times10^{3}\ \text{cm}^{-3}$$
+<p class="note">若改用 $p=n_i^2/n$、$n_i=9.65\times10^9$，得 $7.5\times10^{3}$，同量級。</p>
+<p class="step"><b>(ii) 摻雜：</b> $n\gg p$ 為 n 型，電中性 $n=N_D-N_A+p\approx N_D-N_A$，沒有補償時</p>
+$$N_D\approx n\approx1.25\times10^{16}\ \text{cm}^{-3}$$
+<p class="ans">答：$n\approx1.25\times10^{16}$，$p\approx9\times10^{3}\ \text{cm}^{-3}$；n 型，$N_D\approx1.25\times10^{16}\ \text{cm}^{-3}$</p>
+</div>
+
+<!-- ============ 18 ============ -->
+<div class="card">
+<h2>第 18 題 <span class="tag new">重寫</span></h2>
+<div class="prob">一摻雜 $10^{16}\ \text{cm}^{-3}$ 硼原子與 $8\times10^{16}\ \text{cm}^{-3}$ 砷原子的矽樣品。計算在 300 K 下的費米能階，假設所有的摻雜原子完全解離。$n_i=9.65\times10^{9}$，$E_i\approx E_g/2$。</div>
+<div class="op"><b>操作：</b>手寫稿標 18 的是 Ge 題，整頁不用，照下面重寫。</div>
+<p class="step"><b>Step 1</b> 補償摻雜，淨施體：</p>
+$$N_D-N_A=8\times10^{16}-1\times10^{16}=7\times10^{16}\ \text{cm}^{-3}\gg n_i\;\Rightarrow\;n\approx7\times10^{16}$$
+$$p=\frac{n_i^2}{n}=\frac{(9.65\times10^9)^2}{7\times10^{16}}\approx1.3\times10^{3}\ \text{cm}^{-3}$$
+<p class="step"><b>Step 2</b> 費米能階相對 $E_i$：</p>
+$$E_F-E_i=kT\ln\frac{n}{n_i}=0.02585\ln\frac{7\times10^{16}}{9.65\times10^9}\approx0.408\ \text{eV}$$
+<p class="step"><b>Step 3</b> 換算到能帶邊緣（$E_i=E_g/2=0.56$ eV）：</p>
+$$E_F=E_v+0.56+0.408\approx E_v+0.97\ \text{eV},\qquad E_c-E_F\approx0.152\ \text{eV}$$
+<p class="note">用 $E_c-E_F=kT\ln(N_c/n)=0.155$ eV 驗算，兩種算法差 3 meV（來自 $n_i$ 與 $E_i$ 近似）。</p>
+<p class="ans">答：n 型，$n\approx7\times10^{16}$，$p\approx1.3\times10^3\ \text{cm}^{-3}$；$E_F$ 在 $E_i$ 上方約 0.41 eV（距 $E_c$ 約 0.15 eV）</p>
+</div>
+
+<!-- ============ 20 ============ -->
+<div class="card">
+<h2>第 20 題 <span class="tag keep">沿用</span></h2>
+<div class="prob">假設完全游離的情形下，計算室溫下當矽中摻雜 $10^{15}$、$10^{17}$、$10^{19}$ 磷原子/立方公分情形下的費米能階。由求出的費米能階，檢驗在各種摻雜下完全游離的假設是否適當。假設游離的施體是 $n=N_D[1-F(E_D)]=\dfrac{N_D}{1+\exp[(E_F-E_D)/kT]}$。</div>
+<div class="op"><b>操作：</b>題號相同，直接沿用。請在「用 21 題的 $E_c-E_D=0.045$ eV」旁邊<b>補寫</b>：$N_c=2.86\times10^{19}\ \text{cm}^{-3}$、$kT=0.02585$ eV。<br>
+<span class="note">已驗算：0.265 / 0.146 / 0.027 eV 與 99.98% / 98% / 33% 都正確。10¹⁹ 時 $E_F$ 已高於 $E_D$ 且逼近 $E_c$，完全游離假設不成立（簡併，Boltzmann 近似也不再精確）。</span></div>
+<img src="HW1_crops/ch20.png" alt="20 手寫">
+<p class="ans">答：$E_c-E_F=0.265,\ 0.146,\ 0.027$ eV；游離比例 $99.98\%,\ 98\%,\ 33\%$；前兩者成立，$10^{19}$ 不成立</p>
+</div>
+
+<!-- ============ 21 ============ -->
+<div class="card">
+<h2>第 21 題 <span class="tag keep">沿用</span></h2>
+<div class="prob">對一摻雜 $10^{16}\ \text{cm}^{-3}$ 磷施體雜質且一施體能階在 $E_D=0.045$ eV 的 n 型矽樣本而言，找出在 77 K 時中性施體密度對游離施體密度的比例，此時費米能階低於導電帶底部 0.0459 eV。游離施體的表示式可見問題 20。</div>
+<div class="op"><b>操作：</b>題號相同，直接沿用，算式不用動（已驗算：0.87 正確）。</div>
+<img src="HW1_crops/ch21.png" alt="21 手寫">
+<p class="ans">答：$\dfrac{N_D^0}{N_D^+}=e^{(E_F-E_D)/kT}=e^{-0.0009/0.00664}\approx0.87$</p>
+</div>
+
+<!-- ============ 備用 ============ -->
+<div class="card">
+<h2>備用｜手寫稿中其他題（不在勾選範圍）</h2>
+<p class="note">這三份原本寫在英文題號下，其實剛好是中文版另外三題，之後要交可直接改題號用。</p>
+<h2 style="font-size:1.05rem">中文第 4 題（手寫原標 2）<span class="tag ren">改題號</span> 2 → 4</h2>
+<div class="prob">假如我們將鑽石晶格中的原子投影到底部，原子的高度並以晶格常數為單位表示，如下圖所示。找出圖中三原子 (X, Y, Z) 的高度。</div>
+<img src="HW1_crops/ch4.png" alt="4 手寫（原標 2）">
+<h2 style="font-size:1.05rem">中文第 12 題（手寫原標 11）<span class="tag ren">改題號</span> 11 → 12</h2>
+<div class="prob">求出在 300 K 時一非簡併 n 型半導體導電帶中電子的動能。</div>
+<img src="HW1_crops/ch12.png" alt="12 手寫（原標 11）">
+<h2 style="font-size:1.05rem">中文第 15 題（手寫原標 14）<span class="tag ren">改題號</span> 14 → 15</h2>
+<div class="prob">一矽樣本在 T = 300 K 時其受體雜質濃度 $N_A=10^{16}\ \text{cm}^{-3}$。試求出需要加入多少施體雜質原子，方可使其成為 n 型且費米能量低於導電帶邊緣 0.20 eV。</div>
+<img src="HW1_crops/ch15.png" alt="15 手寫（原標 14）">
+</div>
+
+</main>
+</body>
+</html>
